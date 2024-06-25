@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-tugas12",
+  "version": "1.0.0",
+  "description": "Tugas 12 Sanbercode Node.JS Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build:watch": "npx tsc -w"
+  },
+  "keywords": [],
+  "author": "Muhammad Ridwan Hakim",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.8",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
